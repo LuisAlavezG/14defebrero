@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(241, 207, 216);
+
+}
+
+
+.primero{
+    margin: 10% 0 20% 0;
+    text-align: center;
+}
+
+.imgprimero{
+    width: 30%;
+    margin: auto;
+    display: block;
+}
+
+#imagenCambio {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+.dos{
+    width: 30%;
+    margin: auto;       
+    display: none;
+}
+
+.primero p{
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.noacepto{
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    color: azure;
+    background-color: rgb(240, 9, 9);
+}
+
+
+#crecimientoBtn {
+        font-size: 16px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    color: azure;
+    background-color: rgb(6, 206, 96);
+
+  }
+
+
+  @media screen and  (max-width: 380px){
+    .dos{
+        width: 50%;
+        margin: auto;       
+        display: none;
+    }
+
+    .imgpriemro{
+        width: 50%;
+        margin: auto;
+        display: block;
+    }
+
+  }
+
+
+  .imagen-oculta {
+    display: none;
+  }
+
+  
+  .visible {
+    visibility: visible;
+  }
+
